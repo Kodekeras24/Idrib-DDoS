@@ -51,19 +51,19 @@ faded_text = fade.fire(logo)
 print(faded_text)
 ip = input("[+] Target's IP : ")
 time.sleep(5),
-print("\033[94m           --⟩⟩ : IDRIB...!!! \033[0m "),
+print("\033[94m            --⟩⟩ : IDRIB...!!! \033[0m "),
 time.sleep(5),
-print("\033[96m           --⟩⟩ : Iku fi'il amar \033[0m "),
+print("\033[96m            --⟩⟩ : Iku fi'il amar \033[0m "),
 time.sleep(5),
-print("\033[92m           --⟩⟩ : Kang tegese  pukulah...!! \033[0m "),
+print("\033[92m            --⟩⟩ : Kang tegese  pukulah...!! \033[0m "),
 time.sleep(5),
-print("\033[33m           --⟩⟩ : Dadi sc iki kanggo nggebug arrogansi \033[0m "),
+print("\033[33m            --⟩⟩ : Dadi sc iki kanggo nggebug arrogansi \033[0m "),
 time.sleep(5),
-print("\033[35m           --⟩⟩ : Kaum wedhus \033[0m "),
+print("\033[35m            --⟩⟩ : Kaum wedhus \033[0m "),
 time.sleep(5),
-print("\033[97m           --⟩⟩ : Sing seneng nglakoni sakarep udele \033[0m "),
+print("\033[97m            --⟩⟩ : Sing seneng nglakoni sakarep udele \033[0m "),
 time.sleep(5),
-print("\033[33m           --⟩⟩ : Miwiti Serangan...\033[0m")
+print("\033[33m            --⟩⟩ : Monggo mbakyu, Maseh dikawiti Serangane...\033[0m")
 time.sleep(5)
 while True:
     sent = 0
