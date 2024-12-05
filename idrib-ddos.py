@@ -23,9 +23,12 @@ class bcolors:
     MAGENTA = "\033[35m"
     CYAN    = "\033[36m"
     WHITE   = "\033[37m"
+    os.system("clear")
 
+########################
 white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(3500)
+####################
 
 os.system("clear")
 logo = """
