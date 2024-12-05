@@ -63,7 +63,7 @@ print("\033[35m            --⟩⟩   kaum wedhus \033[0m "),
 time.sleep(5),
 print("\033[97m            --⟩⟩   sing seneng nglakoni sakarep udele \033[0m "),
 time.sleep(5),
-print("\033[33mMiwiti Serangan...\033[0m")
+print("\033[33m            --⟩⟩   Miwiti Serangan...\033[0m")
 time.sleep(5)
 while True:
     sent = 0
