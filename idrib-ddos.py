@@ -51,17 +51,17 @@ faded_text = fade.fire(logo)
 print(faded_text)
 ip = input("[+] Target's IP : ")
 time.sleep(5),
-print("\033[94m           --⟩⟩  IDRIB...!!! \033[0m "),
+print("\033[94m            --⟩⟩   IDRIB...!!! \033[0m "),
 time.sleep(5),
-print("\033[96m           --⟩⟩  iku fi'il amar \033[0m "),
+print("\033[96m            --⟩⟩   iku fi'il amar \033[0m "),
 time.sleep(5),
-print("\033[92m           --⟩⟩  kang tegese memukul \033[0m "),
+print("\033[92m            --⟩⟩   kang tegese memukul \033[0m "),
 time.sleep(5),
-print("\033[33m           --⟩⟩  dadi sc iki kanggo nggebug arrogansi \033[0m "),
+print("\033[33m            --⟩⟩   dadi sc iki kanggo nggebug arrogansi \033[0m "),
 time.sleep(5),
-print("\033[35m           --⟩⟩  kaum wedhus \033[0m "),
+print("\033[35m            --⟩⟩   kaum wedhus \033[0m "),
 time.sleep(5),
-print("\033[97m           --⟩⟩  sing seneng nglakoni sakarep udele \033[0m "),
+print("\033[97m            --⟩⟩   sing seneng nglakoni sakarep udele \033[0m "),
 time.sleep(5),
 print("\033[33mMiwiti Serangan...\033[0m")
 time.sleep(5)
