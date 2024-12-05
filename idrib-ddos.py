@@ -40,10 +40,10 @@ logo = """
      ÷÷÷  ÷÷÷       ÷÷÷  ÷÷÷           ÷÷÷  ÷÷÷       ÷÷÷
      ÷÷÷    ÷÷÷ ÷÷÷ ÷÷÷  ÷÷÷           ÷÷÷  ÷÷÷ ÷÷÷ ÷÷÷
 
-\033[31m                     IDRIB IS A BLOW
-\033[32m              WHICH WILL DESTROY ARROGANCE
-\033[33m                       Author: KF24
-\033[35m                      kode_keras.com
+\033[31m               ———————— IDRIB IS A BLOW ————————
+\033[32m                  WHICH WILL DESTROY ARROGANCE
+\033[33m                          Author: KF24
+\033[35m                         kode_keras.com
 _______________________________________________________________
 \033[37m_______________________________________________________________
 """
