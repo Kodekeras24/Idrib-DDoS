@@ -46,6 +46,8 @@ logo = """
 ____________________________________________________________
 \033[37m____________________________________________________________
 """
+faded_text = fade.fire(logo)
+print(faded_text)
 ip = input("[+] Target's IP : ")
 os.system("clear")
 print("Attack starting...")
