@@ -50,7 +50,7 @@ faded_text = fade.fire(logo)
 print(faded_text)
 ip = input("[+] Target's IP : ")
 os.system("clear")
-print("Attack starting...")
+print("\033[33mAttack starting...\033[0m")
 time.sleep(3)
 while True:
     sent = 0
